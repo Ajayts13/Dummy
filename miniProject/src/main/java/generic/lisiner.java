@@ -16,7 +16,6 @@ public class lisiner extends utility implements ITestListener {
 		String formattedDate = myDateObj.format(myFormat);
 	}
 
-	@Override
 	public void onTestFailure(ITestResult result) {
 		
 		try {
